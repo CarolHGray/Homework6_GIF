@@ -93,6 +93,11 @@ function getGIFs(query) {
 
         // Display the images 
         $(".image_container").css({"display": "none"});
+     
+     
+        var rating = "Rating " + data[i].rating;
+        var ratingText = $("<div class='panel-footer'>" + rating + "</div>")
+
 
         let index = 1;
         
